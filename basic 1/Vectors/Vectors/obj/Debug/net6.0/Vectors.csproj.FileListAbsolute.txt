@@ -1,0 +1,12 @@
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\bin\Debug\net6.0\Vectors.deps.json
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\bin\Debug\net6.0\Vectors.dll
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\bin\Debug\net6.0\Vectors.pdb
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\obj\Debug\net6.0\Vectors.csproj.AssemblyReference.cache
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\obj\Debug\net6.0\Vectors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\obj\Debug\net6.0\Vectors.AssemblyInfoInputs.cache
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\obj\Debug\net6.0\Vectors.AssemblyInfo.cs
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\obj\Debug\net6.0\Vectors.csproj.CoreCompileInputs.cache
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\obj\Debug\net6.0\Vectors.dll
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\obj\Debug\net6.0\refint\Vectors.dll
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\obj\Debug\net6.0\Vectors.pdb
+C:\Users\btyree\Desktop\C# ulearn\Vectors\Vectors\obj\Debug\net6.0\ref\Vectors.dll

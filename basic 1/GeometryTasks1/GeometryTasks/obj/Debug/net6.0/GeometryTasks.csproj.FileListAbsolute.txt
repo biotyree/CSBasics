@@ -1,0 +1,12 @@
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\bin\Debug\net6.0\GeometryTasks.deps.json
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\bin\Debug\net6.0\GeometryTasks.dll
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\bin\Debug\net6.0\GeometryTasks.pdb
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\obj\Debug\net6.0\GeometryTasks.csproj.AssemblyReference.cache
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\obj\Debug\net6.0\GeometryTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\obj\Debug\net6.0\GeometryTasks.AssemblyInfoInputs.cache
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\obj\Debug\net6.0\GeometryTasks.AssemblyInfo.cs
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\obj\Debug\net6.0\GeometryTasks.csproj.CoreCompileInputs.cache
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\obj\Debug\net6.0\GeometryTasks.dll
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\obj\Debug\net6.0\refint\GeometryTasks.dll
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\obj\Debug\net6.0\GeometryTasks.pdb
+C:\Users\btyree\Desktop\C# ulearn\GeometryTasks\GeometryTasks\obj\Debug\net6.0\ref\GeometryTasks.dll

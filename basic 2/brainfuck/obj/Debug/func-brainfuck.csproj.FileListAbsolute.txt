@@ -1,0 +1,17 @@
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\brainfuck.exe.config
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\brainfuck.exe
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\brainfuck.pdb
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\nunit.framework.dll
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\nunitlite.dll
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\obj\Debug\func-brainfuck.csproj.AssemblyReference.cache
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\obj\Debug\func-brainfuck.csproj.SuggestedBindingRedirects.cache
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\obj\Debug\func-brainfuck.csproj.CoreCompileInputs.cache
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\obj\Debug\func-brainfuck.csproj.CopyComplete
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\obj\Debug\brainfuck.exe
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\obj\Debug\brainfuck.pdb
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\nunit.engine.dll
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\nunit.engine.api.dll
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\nunit.engine.core.dll
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\brainfuck\bin\Debug\testcentric.engine.metadata.dll
