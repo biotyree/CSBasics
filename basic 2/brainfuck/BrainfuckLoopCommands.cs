@@ -7,11 +7,12 @@ namespace func.brainfuck
 {
     public class BrainfuckLoopCommands
     {
-        //TODO: завести класс с полями для хранения инфы о скобках
         public static void RegisterTo(IVirtualMachine vm)
         {
-            if (hashCode != vm.Instructions.GetHashCode())
-                InitializeBraketsPositions(vm);
+            var startEndDict = new Dictionary<int, int>();
+            var startBracketsStack = new Stack<int>();
+            
+            InitializeBraketsPositions(vm, startEndDict, startBracketsStack);
 
             vm.RegisterCommand('[', b =>
             {
@@ -28,14 +29,9 @@ namespace func.brainfuck
             });
         }
 
-        private static int hashCode { get; set; }
-        private static Dictionary<int, int> startEndDict = new Dictionary<int, int>();
-        private static Stack<int> startBracketsStack = new Stack<int>();
-
-        private static void InitializeBraketsPositions(IVirtualMachine vm)
+        private static void InitializeBraketsPositions(IVirtualMachine vm,
+            Dictionary<int, int> startEndDict, Stack<int> startBracketsStack)
         {
-            hashCode = vm.Instructions.GetHashCode();
-            startEndDict.Clear();
             for (int i = 0; i < vm.Instructions.Length; i++)
             {
                 if (vm.Instructions[i] == '[')

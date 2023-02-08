@@ -4,7 +4,8 @@ using NUnitLite;
 
 namespace func.brainfuck
 {
-	public class Program
+    
+    public class Program
 	{
 		private const string sierpinskiTriangleBrainfuckProgram = @"
                                 >

@@ -1,0 +1,14 @@
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\bin\Debug\images\rocket.png
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\bin\Debug\images\target.png
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\bin\Debug\func-rocket.exe.config
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\bin\Debug\func-rocket.exe
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\bin\Debug\func-rocket.pdb
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\bin\Debug\nunit.framework.dll
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\obj\Debug\func-rocket.csproj.AssemblyReference.cache
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\obj\Debug\func-rocket.csproj.SuggestedBindingRedirects.cache
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\obj\Debug\func_rocket.Properties.Resources.resources
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\obj\Debug\func-rocket.csproj.GenerateResource.cache
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\obj\Debug\func-rocket.csproj.CoreCompileInputs.cache
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\obj\Debug\func-rocket.csproj.CopyComplete
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\obj\Debug\func-rocket.exe
+C:\Users\btyree\Desktop\C#\C# ulearn\basic 2\Rocket\obj\Debug\func-rocket.pdb

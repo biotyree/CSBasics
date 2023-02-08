@@ -5,7 +5,60 @@ using System.Text;
 
 namespace func.brainfuck
 {
-	public class Brainfuck
+    //var vmBuilder = new VmBuilder(memSize: 60)
+    //.AddBasicCommands(() => Console.Read(), c => Console.Write(c))
+    //.AddLoopCommands();
+    //vmBuilder.Build(program1).Run(); // Build(...) возвращает созданную Vm
+    //vmBuilder.Build(program2).Run();
+
+    public class VmBuilder
+    {
+		private Func<string, VirtualMachine> vmCommands;
+
+
+        public VmBuilder( int memSize = 60)
+		{
+			vmCommands = program => new VirtualMachine(program, memSize);
+		}
+
+		public VmBuilder AddBasicCommands(Func<int> read, Action<char> write)
+		{
+			var prevCommand = vmCommands;
+			vmCommands = x =>
+			{
+				var vm = prevCommand(x);
+				BrainfuckBasicCommands.RegisterTo(vm, read, write);
+				return vm;
+            };
+
+            //addBasicCommands = x => BrainfuckBasicCommands.RegisterTo(x, read, write);
+			return this;
+		}
+
+		public VmBuilder AddLoopCommands()
+		{
+            var prevCommand = vmCommands;
+            vmCommands = x =>
+			{ 
+				var vm = prevCommand(x);
+                BrainfuckLoopCommands.RegisterTo(vm);
+				return vm;
+            };
+            //addLoopCommands = (x) => BrainfuckLoopCommands.RegisterTo(x);
+            return this;
+        }
+
+		public IVirtualMachine Build(string program)
+		{
+			var vm = vmCommands(program);
+			//var vm = new VirtualMachine(program, memSize);
+			//addBasicCommands?.Invoke(vm);
+			//addLoopCommands?.Invoke(vm);
+            return vm;
+		}
+    }
+
+    public class Brainfuck
 	{
 		public static string Run(string program, string input = "")
 		{
@@ -19,10 +72,16 @@ namespace func.brainfuck
 
 		public static void Run(string program, Func<int> read, Action<char> write, int memorySize = 30000)
 		{
-			var vm = new VirtualMachine(program, memorySize);
-			BrainfuckBasicCommands.RegisterTo(vm, read, write);
-			BrainfuckLoopCommands.RegisterTo(vm);
-			vm.Run();
+			//var vm = new VirtualMachine(program, memorySize);
+			//BrainfuckBasicCommands.RegisterTo(vm, read, write);
+			//BrainfuckLoopCommands.RegisterTo(vm);
+			//vm.Run();
+			var vmBuilder = new VmBuilder(memorySize)
+			.AddBasicCommands(read, write)
+			.AddLoopCommands();
+			vmBuilder.Build(program).Run();
+			// Build(...) возвращает созданную Vm
+			//vmBuilder.Build(program2).Run();
 		}
 	}
 }
